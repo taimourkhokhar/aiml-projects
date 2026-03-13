@@ -1,0 +1,2 @@
+This project was built while learning multimodal AI systems.
+Some parts were adapted from tutorials and documentation while experimenting with PyTorch and Gradio to understand how image + text models work together.

@@ -1,0 +1,4 @@
+gradio builds the UI.
+transformers gets us the AI model.
+torch is a deep learning framework.
+Pillow (PIL) helps us handle the images.
