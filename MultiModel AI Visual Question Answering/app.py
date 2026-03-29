@@ -49,5 +49,5 @@ iface = gr.Interface(
     description="Upload an image and ask any question about it. (Model: dandelin/vilt-b32-finetuned-vqa)"
 )
 
-# 7. Launch the app!
+# 7. It will launch the app
 iface.launch()
