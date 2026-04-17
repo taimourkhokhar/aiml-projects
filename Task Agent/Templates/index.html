@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Planning AI Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>🧠 Task Planning AI Agent</h1>
+            <p>Type your messy tasks below and let AI prioritize them for you</p>
+        </div>
+
+        <div class="input-section">
+            <textarea id="taskInput" placeholder="Dump your tasks here...
+Example:
+- Fix the login bug on website
+- Reply to Ahmed's email
+- Prepare slides for tomorrow's meeting
+- Review pull request for Sarah
+- Read the new AI paper"></textarea>
+            <button id="generateBtn" onclick="generateSchedule()">
+                ✨ Generate Schedule
+            </button>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>AI is thinking... please wait 30-60 seconds</p>
+        </div>
+
+        <div id="error" class="error hidden"></div>
+
+        <div id="results" class="results hidden">
+            <h2>📋 Your Optimized Schedule</h2>
+            <div id="scheduleList"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
