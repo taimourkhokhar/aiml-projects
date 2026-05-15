@@ -91,7 +91,7 @@ export default function App() {
         property_type: form.property_type,
       };
 
-      const res = await fetch("http://localhost:8000/predict", {
+      const res = await fetch("https://pakestate.up.railway.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
