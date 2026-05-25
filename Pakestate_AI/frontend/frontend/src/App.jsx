@@ -103,7 +103,7 @@ export default function App() {
         area_marla: parseFloat(form.area_marla),
         property_type: form.property_type,
       };
-      const res = await fetch("https://pakestate.up.railway.app/", {
+      const res = await fetch("https://pakestate.up.railway.app/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
