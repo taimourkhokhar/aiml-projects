@@ -151,23 +151,7 @@ making it the most reliable model for this dataset.
 
 ---
 
-## 📸 Project Preview
 
-### Home Page
-![alt text](image-1.png)
-
----
-
-### Prediction Form
-
-![alt text](image-2.png)
----
-
-
-### Confusion Matrix
-
-![alt text](image-4.png)
----
 
 ## 📁 Project Structure
 
