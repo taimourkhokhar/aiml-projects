@@ -1,0 +1,66 @@
+:root {
+  --ink: #0d141c;
+  --panel: #141e29;
+  --panel-2: #182533;
+  --panel-border: rgba(231, 236, 241, 0.08);
+  --amber: #f5a623;
+  --amber-soft: rgba(245, 166, 35, 0.14);
+  --teal: #2dd4bf;
+  --teal-soft: rgba(45, 212, 191, 0.14);
+  --text: #e7ecf1;
+  --muted: #8494a3;
+  --muted-2: #5b6b79;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-image: radial-gradient(
+      circle at 12% 8%,
+      rgba(245, 166, 35, 0.06),
+      transparent 40%
+    ),
+    radial-gradient(circle at 88% 92%, rgba(45, 212, 191, 0.06), transparent 40%);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--amber-soft);
+  color: var(--text);
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
