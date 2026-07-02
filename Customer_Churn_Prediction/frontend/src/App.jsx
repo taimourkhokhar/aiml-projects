@@ -3,8 +3,9 @@ import SignalGauge from "./components/SignalGauge.jsx";
 import { SelectField, NumberField, ToggleField } from "./components/Field.jsx";
 import "./App.css";
 
-const API_URL = import.meta.env.VITE_API_URL || "beautiful-cooperation-production-39c6.up.railway.app";
-
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://beautiful-cooperation-production-39c6.up.railway.app";
 const YES_NO = [
   { value: "Yes" },
   { value: "No" },
