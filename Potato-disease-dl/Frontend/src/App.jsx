@@ -22,7 +22,7 @@ const DIAGNOSES = {
     label: "Late Blight",
     tone: "late",
     note: "Water-soaked, spreading lesions consistent with Phytophthora infestans.",
-  },
+  },//f
 };
 
 function normalizeClass(raw) {
