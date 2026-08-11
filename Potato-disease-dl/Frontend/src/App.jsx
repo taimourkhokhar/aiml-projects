@@ -4,7 +4,7 @@ import "./App.css";
 // ---------------------------------------------------------------------------
 // Config
 // ---------------------------------------------------------------------------
-const API_URL = "http://13.61.33.169:8000/predict";
+const API_URL = "https://aiml-projects-production.up.railway.app/predict";
 // Normalizes whatever label shape your FastAPI backend returns
 // (handles "Potato___Early_blight", "Early Blight", "early_blight", etc.)
 const DIAGNOSES = {
